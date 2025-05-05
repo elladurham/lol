@@ -5,24 +5,36 @@ layout: page
 {%- assign items = site.data[site.metadata] | where_exp: 'item', 'item.objectid != nil' -%}
 <div class="row">
   <div class="col-md-8">
-
-    {% include index/description.html %}
-    {% include index/carousel.html title="Sample Items" height="300" %}
-  
+    <div class="container">
+      <div class="row">
+        
+        {% include index/description.html %}
+        
+      </div>
+      <div class="row">
+        <div class="col">
+          
+          {% include index/time.html %}
+          
+        </div> 
+        <div class="col">
+          
+          {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
+          
+        </div>
+        <div class="col">
+          
+          {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
+          
+        </div>
+      </div>
+    </div>
   </div>
+  
   <div class="col-md-4">  
 
-    {% include index/time.html %}
-
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
-
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
-
     {% include index/objects.html %}
-
-  </div>
-  <div class="col-md-12">
-
+    
     {% include index/data-download.html %}
 
   </div>
