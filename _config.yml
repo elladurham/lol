@@ -1,7 +1,7 @@
 ##########
 # collectionbuilder-gh
 # Jekyll Digital Collection Generator, designed for GitHub Pages
-# https://github.com/elladurham/lol
+# https://collectionbuilder.github.io/
 ##########
 
 ##########
@@ -9,12 +9,12 @@
 #
 # url is site domain, full URL to the production location of your collection
 # on GitHub Pages follows the pattern username.github.io
-#url: https://collectionbuilder.github.io 
+url: https://elladurham.github.io
 # baseurl is path to location on the domain if necessary e.g. /digital/hjccc
 # on GitHub Pages it is your github repository's name prefixed with a /
-#baseurl: /collectionbuilder-gh 
+baseurl: /lol
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
+source-code: https://github.com/elladurham/lol
 
 ##########
 # SITE SETTINGS
@@ -25,7 +25,7 @@ title: Collection of Laughs
 tagline: sound clips of chuckles, cackles, brays, and more
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "A small digital collection exhibit of audio files created to demonstrate basic information organization concepts."
+description: "Collection of Laughs is a small exhibit and personal exploration of audio recordings of my laughter created to explore data collection and digital scholarship tools and demonstrate basic information organization concepts."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: elladurham
 
