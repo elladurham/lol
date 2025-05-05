@@ -7,9 +7,11 @@ layout: page
   <div class="col-md-8">
     <div class="container">
       <div class="row">
+        <div class="col">
         
-        {% include index/description.html %}
-        
+          {% include index/description.html %}
+          
+        </div>
       </div>
       <div class="row">
         <div class="col">
@@ -22,6 +24,8 @@ layout: page
           {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
           
         </div>
+      </div>
+      <div class="row">
         <div class="col">
           
           {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
